@@ -4,7 +4,7 @@ const logid = "334663825468948481";
 const prefix = "$";
 var cooldown = false;
 bot.on('ready', () => {
-    bot.user.setGame("Logs for VIP and Pro");
+    bot.user.setGame("Logs for VIP");
     bot.user.setStatus("dnd");
     console.log('Started!');
 });
@@ -15,7 +15,7 @@ bot.on('messageDelete', (message) => {
 	let member = message.guild.member(message.author);
 	if (message.embeds.length === 1) return;
 	let user = member.user
-	let modChannel = message.guild.channels.find('name', 'test')
+	let modChannel = message.guild.channels.find('name', 'vip-logs')
 	
 	let embed = {
 		color: 0xbc1007,
@@ -33,7 +33,7 @@ bot.on('messageUpdate', (omsg, nmsg) =>{
     let member = omsg.guild.member(omsg.author);
     if (omsg.embeds.length === 1) return;
     let user = member.user
-    let modChannel = omsg.guild.channels.find('name', 'test')
+    let modChannel = omsg.guild.channels.find('name', 'vip-logs')
 
     let embed = {
         color: 0xbc1007,
