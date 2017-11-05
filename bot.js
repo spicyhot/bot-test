@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const logid = "334663825468948481";
-const config = require("./config.json");
 const prefix = "$";
 var cooldown = false;
 bot.on('ready', () => {
