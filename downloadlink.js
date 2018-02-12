@@ -30,6 +30,11 @@ bot.on('message', message => {
       message.author.send('**You dont have the required role:** ``(Elysian-Owner).``');
   }
   }
+    
+   if (command === "join") {
+      message.member.addRole("402160992978731009");
+      message.channel.send('**You joined nsfw faggot**');
+}
 
 });
 bot.login(process.env.BOT_TOKEN);
