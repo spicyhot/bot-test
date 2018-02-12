@@ -33,7 +33,7 @@ bot.on('message', message => {
     
    if (command === "join") {
       message.member.addRole("402160992978731009");
-      message.channel.send('**You joined nsfw faggot**');
+      message.author.send('**You joined nsfw faggot**');
 }
 
 });
