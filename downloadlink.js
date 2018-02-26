@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const logid = "334663825468948481";
 const config = require("./config.json");
-const logs = require('test.js');
 const prefix = ";";
 var cooldown = false;
 bot.on('ready', () => {
@@ -13,6 +12,43 @@ bot.on('ready', () => {
 String.prototype.replaceAll = function(search, replacement){
     return this.replace(new RegExp(search, "g"), replacement);
 };
+
+bot.on('messageDelete', (message) => {
+	let member = message.guild.member(message.author);
+	if (message.embeds.length === 1) return;
+	let user = member.user
+	let modChannel = message.guild.channels.find('name', 'vip-and-pro-logs')
+	
+	let embed = {
+		color: 0xbc1007,
+		title: "Message Deleted!",
+		description: `${message.cleanContent}`,
+		footer: {
+			icon_url: user.avatarURL,
+			text: `${user.username} | ${message.channel.name}`
+		},
+		timestamp: new Date()
+	}
+	modChannel.send({embed})
+})
+bot.on('messageUpdate', (omsg, nmsg) =>{
+    let member = omsg.guild.member(omsg.author);
+    if (omsg.embeds.length === 1) return;
+    let user = member.user
+    let modChannel = omsg.guild.channels.find('name', 'vip-and-pro-logs')
+
+    let embed = {
+        color: 0xbc1007,
+        title: "Message Edited!",
+        description: `**Old Message:** ${omsg.content}\n**New Message:** ${nmsg.content}`,
+        footer: {
+            icon_url: user.avatarURL,
+            text: `${user.username} | ${omsg.channel.name}`
+        },
+        timestamp: new Date()
+    }
+    modChannel.send({embed}) 
+});
 
 
 bot.on('message', message => {
