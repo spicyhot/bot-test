@@ -1,66 +1,70 @@
-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IwEmS
+const Discord = require('discord.js');
+const bot = new Discord.Client();
+const logid = "334663825468948481";
+const config = require("./config.json");
+const prefix = "$";
+var cooldown = false;
+bot.on('ready', () => {
+    bot.user.setGame("Logs for VIP and Pro");
+    bot.user.setStatus("dnd");
+    console.log('Started!');
+});
+String.prototype.replaceAll = function(search, replacement){
+    return this.replace(new RegExp(search, "g"), replacement);
+};
+bot.on('messageDelete', (message) => {
+	let member = message.guild.member(message.author);
+	if (message.embeds.length === 1) return;
+	let user = member.user
+	let modChannel = message.guild.channels.find('name', 'vip-and-pro-logs')
+	
+	let embed = {
+		color: 0xbc1007,
+		title: "Message Deleted!",
+		description: `${message.cleanContent}`,
+		footer: {
+			icon_url: user.avatarURL,
+			text: `${user.username} | ${message.channel.name}`
+		},
+		timestamp: new Date()
+	}
+	modChannel.send({embed})
+})
+bot.on('messageUpdate', (omsg, nmsg) =>{
+    let member = omsg.guild.member(omsg.author);
+    if (omsg.embeds.length === 1) return;
+    let user = member.user
+    let modChannel = omsg.guild.channels.find('name', 'vip-and-pro-logs')
+
+    let embed = {
+        color: 0xbc1007,
+        title: "Message Edited!",
+        description: `**Old Message:** ${omsg.content}\n**New Message:** ${nmsg.content}`,
+        footer: {
+            icon_url: user.avatarURL,
+            text: `${user.username} | ${omsg.channel.name}`
+        },
+        timestamp: new Date()
+    }
+    modChannel.send({embed}) 
+});
+
+bot.on('message', message => {
+  if(message.author.bot) return;
+  if(!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(config.prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command === "support") {
+      if (message.member.roles.exists('name', 'Elysian-owners')) {
+      message.channel.sendMessage('**You have been added to the role wait for a staff to respond.**');
+  } else {
+      message.channel.sendMessage('**You dont have the required role:** ``(Elysian-Owner).``');
+  }
+  }
+
+});
+bot.login(process.env.BOT_TOKEN);
